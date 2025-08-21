@@ -26,7 +26,6 @@ print((1.1 + 2.2) == 3.3)
 print(0.1)
 # Output: Decimal 0.1000000000000000055511151231257827021181583404541015625
 print(decimal.Decimal(0.1))
-
 # Output: 3/2
 print(fractions.Fraction(1.5))
 # Output: 1/3
@@ -44,9 +43,50 @@ print(F(-3,10)<0)
 print(math.pi)
 # Output: -1.0
 print(math.cos(math.pi))
-# Output:
+# Output: 148.4131591025766
 print(math.exp(5))
 # Output: 2.0
 print(math.log10(100))
 # Output: 120
 print(math.factorial(5))
+
+nilai1 = 10
+nilai2 = 8
+penjumlahan = nilai1 + nilai2
+print(nilai1, "+", nilai2, "=", penjumlahan)
+pengurangan = nilai1 - nilai2
+print(nilai1, "-", nilai2, "=", pengurangan)
+perkalian = nilai1 * nilai2
+print(nilai1, "x", nilai2, "=", perkalian)
+pembagian = nilai1 / nilai2
+print(nilai1, "/", nilai2, "=", pembagian)
+pemangkatan = nilai1 ** nilai2
+print(nilai1, "**", nilai2, "=", pemangkatan)
+pembagian_bulat = nilai1 // nilai2
+print(nilai1, "//", nilai2, "=", pembagian_bulat)
+
+nilai3 = int(input("Masukkan Nilai Pertama  : "))
+nilai4 = int(input("Masukkan Nilai Kedua    : "))
+penjumlahan = nilai3 + nilai4
+print(nilai3, "+", nilai4, "=", penjumlahan)
+pengurangan = nilai3 - nilai4
+print(nilai3, "-", nilai4, "=", pengurangan)
+perkalian = nilai3 * nilai4
+print(nilai3, "x", nilai4, "=", perkalian)
+pembagian = nilai3 / nilai4
+print(nilai3, "/", nilai4, "=", pembagian)
+pemangkatan = nilai3 ** nilai4
+print(nilai3, "**", nilai4, "=", pemangkatan)
+pembagian_bulat = nilai3 // nilai4
+print(nilai3, "//", nilai4, "=", pembagian_bulat)
+
+nilai5 = int(input("Masukkan Nilai Pertama  : "))
+nilai6 = int(input("Masukkan Nilai Kedua    : "))
+operator_lebih_besar = nilai5 > nilai6
+print(nilai5, ">", nilai6, "adalah", operator_lebih_besar)
+operator_lebih_kecil = nilai5 < nilai6
+print(nilai5, "<", nilai6, "adalah", operator_lebih_kecil)
+operator_sama_dengan = nilai5 == nilai6
+print(nilai5, "==", nilai6, "adalah", operator_sama_dengan)
+operator_tidak_sama_dengan = nilai5 != nilai6
+print(nilai5, "!=", nilai6, "adalah", operator_tidak_sama_dengan)

@@ -85,3 +85,6 @@ print("I Love Python".startswith("I"))
 print("Saya belajar Python".endswith("on"))
 print('-'.join(['I','love','you']))
 print("Belajar Java di BSI".replace('Java','Python'))
+
+nama = input("Masukkan nama Anda : ")
+print("Hai " + nama + " Selamat bergabung di Bina Sarana Informatika")
