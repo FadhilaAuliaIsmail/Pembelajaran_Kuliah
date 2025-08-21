@@ -1,0 +1,5 @@
+print("===========================")
+print("Nama : Fadhila Aulia Ismail Syah")
+print("Kelas : 15.1C.05")
+print("Jurusan : Ilmu Komputer")
+print("===========================")
